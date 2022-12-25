@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+colorlib-regform-7
+template
 
 # local env files
 .env.local

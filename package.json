@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "compile:scss": "sass --watch src/assets/scss/main.scss:src/assets/css/global.css"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vue3-carousel": "^0.2.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
